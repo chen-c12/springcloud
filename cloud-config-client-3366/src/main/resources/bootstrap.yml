@@ -8,14 +8,14 @@ spring:
   cloud:
     #config客户端配置
     config:
-      label: main #分支名称
+      label: master #分支名称
       name: config #配置文件名称
       profile: dev #读取后缀名称
       #上述三个综合：master分支上config-dev.yml的配置文件被读取 http://config-3344.com:3344/main/conf
       uri: http://localhost:3344 #配置中心地址
 
   rabbitmq:
-    port:5672
+    port: 5672
     username: guest
     password: guest
     host: 192.168.184.150

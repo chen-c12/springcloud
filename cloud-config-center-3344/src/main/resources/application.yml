@@ -7,17 +7,19 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/chen-c12/springcloud-config.git #ssh地址或http地址
+#          uri: https://github.com/chen-c12/springcloud-config.git #ssh地址或http地址
           search-paths:
-            - springcloud-config
-          skip-ssl-validation: false
-          timeout: 10
-      label: main  #分支
+#            - springcloud-config
+            - thymeleaf
+          uri: https://gitee.com/chen-www/thymeleaf.git
+      label: master  #分支
+
   rabbitmq:
     host: 192.168.184.150
     port: 5672
     username: guest
     password: guest
+
 
 
 eureka:
