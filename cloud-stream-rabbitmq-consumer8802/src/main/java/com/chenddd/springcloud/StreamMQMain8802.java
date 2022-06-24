@@ -10,8 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Description:
  */
 @SpringBootApplication
-public class StreamMQMain8002 {
+public class StreamMQMain8802 {
     public static void main(String[] args) {
-        SpringApplication.run(StreamMQMain8002.class, args);
+        SpringApplication.run(StreamMQMain8802.class, args);
     }
 }
